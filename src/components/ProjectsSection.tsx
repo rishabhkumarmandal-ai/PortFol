@@ -19,10 +19,10 @@ const ProjectsSection = () => {
       title: 'AI Agri-Sarthi Platfrom',
       category: 'ai',
       description: 'The e-commerce system that connects farmers with crop vendors and shopkeepers, along with timely alerts and notifications about government schemes and severe weather conditions through a procedural panel interface.  and the AI, it includes a crop disease prediction model where farmers can upload plant images and answer a questionnaire to receive automated treatment suggestions using a large language model (LLM). It also provides a knowledge-based system for recommending the right manures and fertilizers',
-      image: '/Projects/agri.png',
+      image: '/img/agri.png',
       technologies: ['AI/ML', 'CNN', 'Speech Recognition', 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI_Farmer_agri_sarthi',
-      demo: '/Projects/video.mp4',
+      demo: '/img/video.mp4',
       date: '2025'
     },
     {
@@ -30,10 +30,10 @@ const ProjectsSection = () => {
       title: 'AI Dermatology Expert System',
       category: 'ai',
       description: 'AI-expert system that integrates skin image analysis with a rule-based questionnaire to deliver comprehensive, patient-centric diagnostics and treatment recommendations. The proposed system comprises two modules:  a Patient Module that enables image upload of the affected area and gathers health data via structured questionnaires, and an Expert Module powered by a dual-inference engine built on Large Language Models (LLMs). ',
-      image: '/Projects/skin.png',
+      image: '/img/skin.png',
       technologies: ['AI/ML', 'CNN', 'Rule-Based', 'Knowledge Base' , 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Skin-Disease-Diagnosis-and-Holistic-Treatment-System',
-      demo: '/Projects/skin.mp4',
+      demo: '/img/skin.mp4',
       date: '2024'
     },
     {
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
       title: 'AI Mathematician',
       category: 'ai',
       description: 'The AI-Powered Calculator is a cutting-edge tool that combines traditional calculations with AI-driven features for enhanced learning and problem-solving.',
-      image: '/Projects/calcultor.png',
+      image: '/img/calcultor.png',
       technologies: ['AI', 'React', 'NLP','Handwritting Recognition'],
       github: 'https://github.com/rishabhkumarmandal-ai/calculator',
       demo: 'https://calc-fe.vercel.app/',
@@ -52,10 +52,10 @@ const ProjectsSection = () => {
       title: 'Dual-ThermoCryo Therapy Device',
       category: 'iot', 
       description: 'Advanced thermal therapy system with automated temperature control, user interface for mode selection, sensor feedback loops, and smart app control for therapeutic applications.',
-      image: '/Projects/heat.png',
+      image: '/img/heat.png',
       technologies: ['ESP32', 'Sensors', 'Mobile App', 'Temperature Control'],
       github: 'https://github.com/rishabhkumarmandal-ai/Thermo-Cryo-Therapy-Device',
-      demo: '/Projects/heatflow.png',
+      demo: '/img/heatflow.png',
       date: '2025'
     },
     {
@@ -63,10 +63,10 @@ const ProjectsSection = () => {
       title: 'Alternate Nostril Breathing Device',
       category: 'iot',
       description: ' The Wearable device designed to automate nostril-specific airflow control for breathing exercises, particularly focused on practices such as Anulom Vilom. Utilizing advanced mini micro servos controlled via Bluetooth commands from a smartphone app ',
-      image: '/Projects/nose.png',
+      image: '/img/nose.png',
       technologies: ['Embedded Systems', 'ESP32', 'IoT', 'Sensors', 'servomotors'],
       github: 'https://github.com/rishabhkumarmandal-ai/Nostril-Device',
-      demo: '/Projects/kicad.png',
+      demo: '/img/kicad.png',
       date: '2025'
     },
     {
@@ -74,7 +74,7 @@ const ProjectsSection = () => {
       title: 'Micro Plastic Sensing Device',
       category: 'iot',
       description: ' This Device is used to detect, classify, and report microplastic contamination in water sources with high precision and in real time, without the need for laboratory infrastructure.',
-      image: '/Projects/micro.png',
+      image: '/img/micro.png',
       technologies: ['Embedded Systems', 'ESP32', 'IoT', 'Sensors'],
       github: 'https://github.com/rishabhkumarmandal-ai/Micro-Plastic-Detection-Device',
       demo: 'Projects/micro2.png',
@@ -85,7 +85,7 @@ const ProjectsSection = () => {
       title: 'Hi-Tech Waste Segregator ',
       category: 'iot',
       description: 'This project presents the development of a smart dustbin designed to enhance waste management efficiency through advanced sensing and communication technologies. This smart dustbin aims to promote a more efficient and sustainable approach to waste management through the integration of IoT technologies and renewable energy solutions.',
-      image: '/Projects/dustbin.png',
+      image: '/img/dustbin.png',
       technologies: ['Raspberry-Pi ', 'BLE', 'Sensor', 'Waste -Segregation'],
       github: 'https://github.com/rishabhkumarmandal-ai/Hi-Tech-Waste-Segregator',
       demo: 'Projects/dustbin.mp4',
@@ -96,10 +96,10 @@ const ProjectsSection = () => {
       title: 'AI-Driven Multi Chambered Filtration System',
       category: 'iot',
       description: 'Our  invention is a multi-stage, intelligent filtration system designed to provide high-quality drinking water through six key processes distributed across four chambers. The system integrates IoT technology for real-time impurity detection, allowing it to adjust the filtration process based on water quality dynamically.',
-      image: '/Projects/water.png',
+      image: '/img/water.png',
       technologies: ['Water Treatment', 'Sensors', 'Filtration', 'Automation'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Multi-Chambered-Filtration-System',
-      demo: '/Projects/architect.png',
+      demo: '/img/architect.png',
       date: '2023'
     },
     
