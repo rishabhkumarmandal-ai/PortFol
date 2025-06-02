@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <div className="w-64 h-64 lg:w-80 lg:h-80 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-ocean-400 to-ocean-600 rounded-full animate-pulse"></div>
                   <img
-                    src="/assests/Me2.png"
+                    src="/img/Me2.png"
                     alt="Rishabh Kumar Mandal"
                     className="w-full h-full object-cover rounded-full border-4 border-white/20 relative z-10"
                   />
