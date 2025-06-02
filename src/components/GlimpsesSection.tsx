@@ -4,7 +4,7 @@ const GlimpsesSection = () => {
   const glimpses = [
     {
       id: 1,
-      image: '/Achievements/25,000.jpeg',
+      image: '/img/25,000.jpeg',
       title: 'Rise of Ventures Winner',
       description: 'Winning moment at the Research & Patent Ideas competition with ₹25,000 prize',
       event: 'Grafest by Graphic Era ',
@@ -12,7 +12,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 2,
-      image: '/Achievements/31,000.jpeg',
+      image: '/img/31,000.jpeg',
       title: 'National Level Hackathon Winner',
       description: 'Awarded with 31,000 for Securing 1st Place at Promptx by Devbhoomi Univeristy',
       event: 'Promptx by Devbhoomi Univeristy',
@@ -20,7 +20,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 3,
-      image: '/Achievements/3000.jpg',
+      image: '/img/3000.jpg',
       title: 'National Level Ideathon',
       description: 'Securing 1st Runner Up at Entrepreneurship Ideathon and Win 2 lakh Grant',
       event: 'ITS Univeristy Greater Noida',
@@ -28,7 +28,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 4,
-      image: '/Achievements/4000.jpeg',
+      image: '/img/4000.jpeg',
       title: 'Technical Festive Events',
       description: 'Win More than 5 Awards in a Single Day in Technical and Coding Related Competetions',
       event: 'Utkrisht by Tula\'s Institute',
@@ -36,7 +36,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 5,
-      image: '/Achievements/conference.jpeg',
+      image: '/img/conference.jpeg',
       title: 'Organizing Team of IEEE Conference',
       description: 'Contributed as an organzing team member for the IEEE conference held at Tula\'s Institute',
       event: 'Tula\'s Institute',
@@ -44,7 +44,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 6,
-      image: '/Achievements/7000.jpg',
+      image: '/img/7000.jpg',
       title: 'Youth4Future Winner',
       description: 'Secured 1st Runner Up at National Level Hackahton and won cash prize of 7,000',
       event: 'Maharaja Sujalmal Univeristy at New Delhi',
@@ -52,7 +52,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 7,
-      image: '/Achievements/techno.jpg',
+      image: '/img/techno.jpg',
       title: 'Techathon Winner',
       description: 'Secured 1st Runner up in College Hacakthon competition organized by TULA\'s Institute',
       event: 'College Competition',
@@ -60,7 +60,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 8,
-      image: '/Achievements/utkrisht trophy.jpeg',
+      image: '/img/utkrisht trophy.jpeg',
       title: 'Hackathon Winner at Utkrisht',
       description: 'Secured 1st place in Art of Web Competetion and won Trophy',
       event: 'Utkrisht by Tula\'s Institute',
@@ -68,7 +68,7 @@ const GlimpsesSection = () => {
     },
     {
       id: 9,
-      image: '/Achievements/ieee.jpeg',
+      image: '/img/ieee.jpeg',
       title: 'Paper Presentation at IEEE Conference',
       description: '1st Expereince of Paper Presentation in IEEE Conference and Meeting with Top Researchers and Scholars',
       event: 'Graphic Era Bhimtal Univeristy',

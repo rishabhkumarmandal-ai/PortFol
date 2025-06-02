@@ -62,7 +62,7 @@ const AboutSection = () => {
                 <div className="w-48 h-48 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-ocean-400 to-ocean-600 rounded-full animate-pulse"></div>
                   <img
-                    src="/assests/Me2.png"
+                    src="/img/Me2.png"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full border-4 border-ocean-400 relative z-10"
                   />

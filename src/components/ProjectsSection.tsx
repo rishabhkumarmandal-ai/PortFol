@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       title: 'AI Dermatology Expert System',
       category: 'ai',
       description: 'AI-expert system that integrates skin image analysis with a rule-based questionnaire to deliver comprehensive, patient-centric diagnostics and treatment recommendations. The proposed system comprises two modules:  a Patient Module that enables image upload of the affected area and gathers health data via structured questionnaires, and an Expert Module powered by a dual-inference engine built on Large Language Models (LLMs). ',
-      image: '/img/skin.png',
+      image: '/img/Skin.png',
       technologies: ['AI/ML', 'CNN', 'Rule-Based', 'Knowledge Base' , 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Skin-Disease-Diagnosis-and-Holistic-Treatment-System',
       demo: '/img/skin.mp4',

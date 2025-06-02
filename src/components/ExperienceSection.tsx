@@ -16,7 +16,7 @@ const ExperienceSection = () => {
         'Showed good aptitude and dedication to the project'
       ],
       type: 'work',
-      certificate: '/Expereince/DSVV-certificate.jpg'
+      certificate: '/img/DSVV-certificate.jpg'
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const ExperienceSection = () => {
         'Gained experience in business development and day-to-day operations'
       ],
       type: 'work',
-      certificate: '/Expereince/IMUN.jpeg'
+      certificate: '/img/IMUN.jpeg'
     },
 
     {
@@ -48,7 +48,7 @@ const ExperienceSection = () => {
         'Gained experience in business development and day-to-day operations'
       ],
       type: 'work',
-      certificate: '/Expereince/Rishab kumar mandal.pdf'
+      certificate: '/img/Rishab kumar mandal.pdf'
     },
     {
       id: 4,

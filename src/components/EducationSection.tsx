@@ -19,7 +19,7 @@ const EducationSection = () => {
         'Database Management',
         'Software Engineering'
       ],
-      logo: '/assests/edu logos/1.png'
+      logo: '/img/1.png'
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ const EducationSection = () => {
         'Winner of multiple coding competitions',
         'Published research papers on AI/ML'
       ],
-      logo: '/assests/edu logos/3.png'
+      logo: '/img/3.png'
     },
     {
       id: 3,
@@ -69,7 +69,7 @@ const EducationSection = () => {
         'District in Kabaddi and Cricket',
         'Win GK Quiz, Poetry and Art Competition in State Level'
       ],
-      logo: '/assests/edu logos/2.png'
+      logo: '/img/2.png'
     }
   ];
 
