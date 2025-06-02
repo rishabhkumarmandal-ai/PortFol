@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       image: '/img/agri.png',
       technologies: ['AI/ML', 'CNN', 'Speech Recognition', 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI_Farmer_agri_sarthi',
-      demo: '/img/video.mp4',
+      demo: 'https://www.youtube.com/embed/gfiHIPiuoQo?si=MGCbu0zVw5b-Txvn',
       date: '2025'
     },
     {
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       image: '/img/Skin.png',
       technologies: ['AI/ML', 'CNN', 'Rule-Based', 'Knowledge Base' , 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Skin-Disease-Diagnosis-and-Holistic-Treatment-System',
-      demo: '/img/skin.mp4',
+      demo: 'https://www.youtube.com/embed/H8-Q8Q2ZasQ?si=XkSzHt80hyQM9OBW',
       date: '2024'
     },
     {
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
       image: '/img/dustbin.png',
       technologies: ['Raspberry-Pi ', 'BLE', 'Sensor', 'Waste -Segregation'],
       github: 'https://github.com/rishabhkumarmandal-ai/Hi-Tech-Waste-Segregator',
-      demo: 'Projects/dustbin.mp4',
+      demo: 'https://www.youtube.com/embed/aL-hPfCvJnk?si=qNKDR0JeQjse2kAU' ,
       date: '2023'
     },
     {
