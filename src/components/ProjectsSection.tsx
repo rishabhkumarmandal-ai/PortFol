@@ -155,20 +155,29 @@ const ProjectsSection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-colors"
-                  >
-                    <Github size={18} />
-                  </a>
-                  <a
-                    href={project.demo}
-                    className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                  </a>
+                  <div className="relative group">
+  <img src={project.image} alt="Project" className="w-full h-auto rounded-lg" />
+
+  <div className="absolute top-4 right-4 flex gap-2">
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors group-hover:bg-black"
+    >
+      <Github size={18} />
+    </a>
+    <a
+      href={project.demo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors group-hover:bg-green-800"
+    >
+      <ExternalLink size={18} />
+    </a>
+  </div>
+</div>
+
                 </div>
               </div>
 
