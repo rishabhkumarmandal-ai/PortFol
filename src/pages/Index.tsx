@@ -104,7 +104,7 @@ const Index = () => {
             © 2024 Rishabh Kumar Mandal. All rights reserved.
           </p>
           <p className="text-white/40 text-sm mt-2">
-            Built with React, Tailwind CSS, and lots of ❤️
+            Love to Design the Web, Build the Future and Explore the Universe
           </p>
         </div>
       </footer>
