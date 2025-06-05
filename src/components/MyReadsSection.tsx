@@ -4,7 +4,7 @@ const MyReadsSection = () => {
   const bookCategories = [
     {
       id: 1,
-      title: 'Business & Entrepreneurship',
+      title: 'Entrepreneurship',
       icon: Award,
       color: 'from-green-400 to-teal-500',
       books: [
