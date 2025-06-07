@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   const [text, setText] = useState('');
-  const fullText = 'AI Engineer';
+  const fullText = 'Engineer- that creates solutions ';
   
   useEffect(() => {
     let index = 0;
@@ -57,8 +57,7 @@ const HeroSection = () => {
               </div>
 
               <p className="text-base md:text-lg lg:text-xl text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in">
-                Pursuing Bachelor of Computer Science and Engineering. Passionate about AI/ML, Web Development, 
-                and creating innovative solutions that make a difference.
+               "Success isn’t always about greatness. It’s about consistency. Consistent hard work gains success. Greatness will come." — Dwayne Johnson
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
