@@ -1,34 +1,19 @@
-import { BookOpen, Star, Award, Brain } from 'lucide-react';
+import { BookOpen, Star, Award, Brain, Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const MyReadsSection = () => {
   const bookCategories = [
     {
       id: 1,
-      title: 'Entrepreneurship',
+      title: 'Business & Entrepreneurship',
       icon: Award,
       color: 'from-green-400 to-teal-500',
       books: [
-        {
-          title: 'The Lean Startup - Eric Ries',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg',
-        },
-        {
-          title: 'Zero to One - Peter Thiel',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/71m-MxdJ2WL.jpg',
-        },
-        {
-          title: 'Good to Great - Jim Collins',
-          image: 'https://m.media-amazon.com/images/I/51IPJiX34fL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-        {
-          title: "The Psychology of Money - Morgan Housel",
-          image: 'https://m.media-amazon.com/images/I/81Dky+tD+pL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-        {
-          title: 'Think and Grow Rich - Napoleon Hill',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg',
-        },
-      ],
+        'The Lean Startup - Eric Ries',
+        'Zero to One - Peter Thiel',
+        'Good to Great - Jim Collins',
+        'The Innovator\'s Dilemma - Clayton Christensen',
+        'Think and Grow Rich - Napoleon Hill'
+      ]
     },
     {
       id: 2,
@@ -36,27 +21,12 @@ const MyReadsSection = () => {
       icon: Brain,
       color: 'from-purple-400 to-blue-500',
       books: [
-        {
-          title: 'Dune - Frank Herbert',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/91uwocAMtSL.jpg',
-        },
-        {
-          title: 'Foundation Series - Isaac Asimov',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg',
-        },
-        {
-          title: 'Neuromancer - William Gibson',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/71KilybDOoL.jpg',
-        },
-        {
-          title: 'The Martian - Andy Weir',
-          image: 'https://m.media-amazon.com/images/I/91pw0THBwBL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-        {
-          title: "Ender's Game - Orson Scott Card",
-          image: 'https://m.media-amazon.com/images/I/71RoGB0yKOL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-      ],
+        'Dune - Frank Herbert',
+        'Foundation Series - Isaac Asimov',
+        'Neuromancer - William Gibson',
+        'The Martian - Andy Weir',
+        'Ender\'s Game - Orson Scott Card'
+      ]
     },
     {
       id: 3,
@@ -64,27 +34,12 @@ const MyReadsSection = () => {
       icon: BookOpen,
       color: 'from-blue-400 to-cyan-500',
       books: [
-        {
-          title: 'Sapiens - Yuval Noah Harari',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg',
-        },
-        {
-          title: 'A Brief History of Time - Stephen Hawking',
-          image: 'https://m.media-amazon.com/images/I/81DBK93b6jL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-        {
-          title: 'The Selfish Gene - Richard Dawkins',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg',
-        },
-        {
-          title: 'Cosmos - Carl Sagan',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg',
-        },
-        {
-          title: 'The Art of War - Sun Tzu',
-          image: 'https://m.media-amazon.com/images/I/819HmaAI3EL._AC_UY327_FMwebp_QL65_.jpg',
-        },
-      ],
+        'Sapiens - Yuval Noah Harari',
+        'A Brief History of Time - Stephen Hawking',
+        'The Selfish Gene - Richard Dawkins',
+        'Cosmos - Carl Sagan',
+        'The Art of War - Sun Tzu'
+      ]
     },
     {
       id: 4,
@@ -92,28 +47,13 @@ const MyReadsSection = () => {
       icon: Star,
       color: 'from-orange-400 to-red-500',
       books: [
-        {
-          title: 'Atomic Habits - James Clear',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg',
-        },
-        {
-          title: 'The 7 Habits - Stephen Covey',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg',
-        },
-        {
-          title: 'Mindset - Carol Dweck',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81kqrwS1nNL.jpg',
-        },
-        {
-          title: 'The Power of Now - Eckhart Tolle',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/71sBtM3Yi5L.jpg',
-        },
-        {
-          title: 'Deep Work - Cal Newport',
-          image: 'https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg',
-        },
-      ],
-    },
+        'Atomic Habits - James Clear',
+        'The 7 Habits - Stephen Covey',
+        'Mindset - Carol Dweck',
+        'The Power of Now - Eckhart Tolle',
+        'Deep Work - Cal Newport'
+      ]
+    }
   ];
 
   return (
@@ -134,6 +74,8 @@ const MyReadsSection = () => {
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             Books that inspire, educate, and fuel my passion for continuous learning and growth
           </p>
+          
+          
         </div>
 
         <div className="max-w-7xl mx-auto">
@@ -150,6 +92,7 @@ const MyReadsSection = () => {
                     <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br ${category.color} mb-4 group-hover:scale-110 transition-all duration-300`}>
                       <Icon size={28} className="text-white" />
                     </div>
+                    
                     <h3 className="text-xl font-bold text-white mb-4 group-hover:text-ocean-300 transition-colors">
                       {category.title}
                     </h3>
@@ -162,13 +105,9 @@ const MyReadsSection = () => {
                         className="group/book bg-white/5 rounded-xl p-3 border border-white/5 hover:border-ocean-400/30 transition-all duration-300 hover:bg-white/10"
                       >
                         <div className="flex items-start">
-                          <img
-                            src={book.image}
-                            alt={book.title}
-                            className="w-12 h-16 object-cover mr-3 flex-shrink-0 rounded"
-                          />
+                          <BookOpen size={16} className="text-ocean-400 mr-3 mt-1 flex-shrink-0" />
                           <p className="text-white/80 text-sm leading-relaxed group-hover/book:text-white transition-colors">
-                            {book.title}
+                            {book}
                           </p>
                         </div>
                       </div>
