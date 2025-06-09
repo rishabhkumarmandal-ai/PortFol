@@ -42,7 +42,7 @@ const PublicationsSection = () => {
       
       year: "2025",
       status: "Published",
-      description: "Innovative patent for an intelligent multi-chambered water filtration system using AI algorithms for optimal filtration efficiency and water quality monitoring.",
+      description: "Innovative patent of an intelligent multi-chambered water filtration system using AI algorithms for optimal filtration efficiency and water quality monitoring.",
       link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=arsTVWgAAAAJ&citation_for_view=arsTVWgAAAAJ:d1gkVwhDpl0C",
       type: "Patent"
     },
@@ -80,7 +80,7 @@ const PublicationsSection = () => {
             Publications & Patents
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Research contributions and academic publications in technology and innovation
+            Research contributions in academic publications and IPR claims for Tech Property in the feild of technology and innovation
           </p>
           
           
