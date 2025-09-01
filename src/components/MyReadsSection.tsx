@@ -11,7 +11,7 @@ const MyReadsSection = () => {
         'The Lean Startup - Eric Ries',
         'Zero to One - Peter Thiel',
         'Good to Great - Jim Collins',
-        'The Innovator\'s Dilemma - Clayton Christensen',
+       // 'The Innovator\'s Dilemma - Clayton Christensen',
         'Think and Grow Rich - Napoleon Hill'
       ]
     },
@@ -22,10 +22,10 @@ const MyReadsSection = () => {
       color: 'from-purple-400 to-blue-500',
       books: [
         'Dune - Frank Herbert',
-        'Foundation Series - Isaac Asimov',
-        'Neuromancer - William Gibson',
+       // 'Foundation Series - Isaac Asimov',
+       // 'Neuromancer - William Gibson',
         'The Martian - Andy Weir',
-        'Ender\'s Game - Orson Scott Card'
+       //  'Ender\'s Game - Orson Scott Card'
       ]
     },
     {
@@ -34,11 +34,11 @@ const MyReadsSection = () => {
       icon: BookOpen,
       color: 'from-blue-400 to-cyan-500',
       books: [
-        'Sapiens - Yuval Noah Harari',
+      //  'Sapiens - Yuval Noah Harari',
         'A Brief History of Time - Stephen Hawking',
         'The Selfish Gene - Richard Dawkins',
         'Cosmos - Carl Sagan',
-        'The Art of War - Sun Tzu'
+       // 'The Art of War - Sun Tzu'
       ]
     },
     {
@@ -51,7 +51,7 @@ const MyReadsSection = () => {
         'The 7 Habits - Stephen Covey',
         'Mindset - Carol Dweck',
         'The Power of Now - Eckhart Tolle',
-        'Deep Work - Cal Newport'
+        'Zero to One  - Blake Masters & Peter Thiel'
       ]
     }
   ];

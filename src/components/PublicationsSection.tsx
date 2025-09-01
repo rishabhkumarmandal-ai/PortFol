@@ -9,7 +9,7 @@ const PublicationsSection = () => {
       journal: "IEEE Conference on Advances in Computer Science, Electrical, Electronics, and Communication Technologies (CE2CT)",
       year: "2025",
       status: "Published",
-      description: "The guarantee accurate control of crucial variables like temperature, humidity, pressure, and equipment efficiency, these systems make use of IoT devices, AI techniques, and big data analytics. Through sophisticated data perspectives, the cloud-based strategy enables predictive maintenance, improves flexibility, and lowers operating expenses. Stakeholders may make prompt, data-driven choices from anywhere with remote access to control rooms. These seminars provide practical experience with cloud-controlled settings and function as training and development centres. The system's flexibility to meet a range of industrial demands is further enhanced by its compatibility with external tools and equipment. ",
+     //  description: "The guarantee accurate control of crucial variables like temperature, humidity, pressure, and equipment efficiency, these systems make use of IoT devices, AI techniques, and big data analytics. Through sophisticated data perspectives, the cloud-based strategy enables predictive maintenance, improves flexibility, and lowers operating expenses. Stakeholders may make prompt, data-driven choices from anywhere with remote access to control rooms. These seminars provide practical experience with cloud-controlled settings and function as training and development centres. The system's flexibility to meet a range of industrial demands is further enhanced by its compatibility with external tools and equipment. ",
       link: "https://doi.org/10.1109/CE2CT64011.2025.10939521",
       type: "Conference Paper"
     },
@@ -20,7 +20,7 @@ const PublicationsSection = () => {
       journal: "IEEE Conference on Advances in Computer Science, Electrical, Electronics, and Communication Technologies (CE2CT)",
       year: "2025",
       status: "Published",
-      description: " Using big data-driven approaches to optimize talent recruitment is essential for improved decisions in the cutthroat world of BI. The efficacy of many machine learning algorithms to increase recruiting performance and accuracy is compared in this investigation. For optimizing, cross-validating, and hyperparameter modification were employed. The Random Forest (RF) algorithm has the greatest accuracy (92.9%), trailed by the Gradient Boosting Classifying system ($mathbf{92.6 }$) and the neural network (NNs) models (${92}.7 $).",
+     //  description: " Using big data-driven approaches to optimize talent recruitment is essential for improved decisions in the cutthroat world of BI. The efficacy of many machine learning algorithms to increase recruiting performance and accuracy is compared in this investigation. For optimizing, cross-validating, and hyperparameter modification were employed. The Random Forest (RF) algorithm has the greatest accuracy (92.9%), trailed by the Gradient Boosting Classifying system ($mathbf{92.6 }$) and the neural network (NNs) models (${92}.7 $).",
       link: "https://doi.org/10.1109/CE2CT64011.2025.10939850",
       type: "Conference Paper"
     },
@@ -31,7 +31,7 @@ const PublicationsSection = () => {
       journal: "Springer Conference on Mind, Brain, and Consciousness (MBCC 2025)",
       year: "2025",
       status: "Paper Selected",
-      description: "This research bridges the gap in personalized health assessment by proposing a hybrid AI expert system, called Expert Therapist, that integrates tongue image analysis with a rule based questionnaire to enhance diagnostic accuracy. The system uses a two-inference engine based on a Large Language Model (LLM) to organize expert knowledge into questionnaires and incorporates holistic therapeutic plans based on Ayurvedic principles",
+    //   description: "This research bridges the gap in personalized health assessment by proposing a hybrid AI expert system, called Expert Therapist, that integrates tongue image analysis with a rule based questionnaire to enhance diagnostic accuracy. The system uses a two-inference engine based on a Large Language Model (LLM) to organize expert knowledge into questionnaires and incorporates holistic therapeutic plans based on Ayurvedic principles",
       link: "https://iksmha.iitmandi.ac.in/mbcc/2025/",
       type: "Conference Paper"
     },
@@ -42,7 +42,7 @@ const PublicationsSection = () => {
       
       year: "2025",
       status: "Published",
-      description: "Innovative patent of an intelligent multi-chambered water filtration system using AI algorithms for optimal filtration efficiency and water quality monitoring.",
+      // description: "Innovative patent of an intelligent multi-chambered water filtration system using AI algorithms for optimal filtration efficiency and water quality monitoring.",
       link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=arsTVWgAAAAJ&citation_for_view=arsTVWgAAAAJ:d1gkVwhDpl0C",
       type: "Patent"
     },
@@ -53,7 +53,7 @@ const PublicationsSection = () => {
      
       year: "2024",
       status: "Published",
-      description: "Published patent for an automated waste segregation system utilizing computer vision and machine learning for efficient waste classification and management.",
+      // description: "Published patent for an automated waste segregation system utilizing computer vision and machine learning for efficient waste classification and management.",
       link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=arsTVWgAAAAJ&citation_for_view=arsTVWgAAAAJ:u-x6o8ySG0sC",
       type: "Patent"
     }

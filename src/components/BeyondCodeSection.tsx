@@ -5,7 +5,6 @@ const BeyondCodeSection = () => {
     {
       id: 1,
       title: 'Photo/Video Editing',
-      description: 'Creating visual stories through creative photo manipulation and video production',
       icon: Camera,
       color: 'from-purple-400 to-pink-500',
       skills: ['Adobe Photoshop', 'Premiere Pro', 'Creative Direction']
@@ -13,7 +12,6 @@ const BeyondCodeSection = () => {
     {
       id: 2,
       title: 'Teaching',
-      description: 'Sharing knowledge and mentoring students in programming and technology',
       icon: Users,
       color: 'from-blue-400 to-cyan-500',
       skills: ['Programming Concepts', 'Mentoring', 'Technical Communication']
@@ -21,7 +19,6 @@ const BeyondCodeSection = () => {
     {
       id: 3,
       title: 'Cricket',
-      description: 'Passionate about cricket - playing, following matches, and team strategy',
       icon: Award,
       color: 'from-green-400 to-teal-500',
       skills: ['Team Sports', 'Strategy', 'Leadership']
@@ -29,7 +26,6 @@ const BeyondCodeSection = () => {
     {
       id: 4,
       title: 'Kabaddi',
-      description: 'Traditional sport enthusiast with focus on fitness and team coordination',
       icon: Award,
       color: 'from-red-400 to-orange-500',
       skills: ['Traditional Sports', 'Fitness', 'Team Coordination']
@@ -37,7 +33,6 @@ const BeyondCodeSection = () => {
     {
       id: 5,
       title: 'Poetry',
-      description: 'Expressing thoughts and emotions through creative writing and verse',
       icon: Pen,
       color: 'from-indigo-400 to-purple-500',
       skills: ['Creative Writing', 'Expression', 'Storytelling']
@@ -45,7 +40,6 @@ const BeyondCodeSection = () => {
     {
       id: 6,
       title: 'Art & Sketch',
-      description: 'Visual artistry through sketching, drawing, and creative design',
       icon: Palette,
       color: 'from-pink-400 to-red-500',
       skills: ['Digital Art', 'Sketching', 'Creative Design']
@@ -53,7 +47,6 @@ const BeyondCodeSection = () => {
     {
       id: 7,
       title: 'Travelling',
-      description: 'Exploring new places, cultures, and gaining diverse life experiences',
       icon: MapPin,
       color: 'from-yellow-400 to-orange-500',
       skills: ['Cultural Exploration', 'Adventure', 'Photography']
@@ -61,7 +54,6 @@ const BeyondCodeSection = () => {
     {
       id: 8,
       title: 'Reading Sci-fi',
-      description: 'Diving into futuristic worlds and exploring scientific possibilities through literature',
       icon: BookOpen,
       color: 'from-cyan-400 to-blue-500',
       skills: ['Science Fiction', 'Future Tech', 'Imagination']

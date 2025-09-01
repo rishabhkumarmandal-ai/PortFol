@@ -5,13 +5,13 @@ const AboutSection = () => {
   const skills = [
     { name: 'Web Development', level: 80 },
     { name: 'IoT Embedded System', level: 50 },
-    { name: 'AI/ML Systems', level: 85 },
+  //{ name: 'AI/ML Integrations', level: 85 },
     { name: 'Research', level: 90 },
     { name: 'Literature and Writing', level: 95 },
     { name: '3D Printing', level: 40 },
     { name: 'Designing', level: 80 },
-    { name: 'Frontend', level: 80 },
-    { name: 'Backend', level: 70 },
+  // { name: 'Frontend', level: 80 },
+  // { name: 'Backend', level: 70 },
     { name: 'Project Management', level: 80 },
     { name: 'Leadership & Volunterring', level: 80 },
     { name: 'Teaching', level: 90 },
@@ -25,19 +25,19 @@ const AboutSection = () => {
     { icon: Database, name: 'MongoDB', color: 'text-green-400' },
     { icon: Smartphone, name: 'Node.js', color: 'text-green-500' },
     { icon: Palette, name: 'Figma', color: 'text-purple-400' },
-    { icon: Brain, name: 'TensorFlow', color: 'text-red-400' },
+  //{ icon: Brain, name: 'TensorFlow', color: 'text-red-400' },
     { icon: CircuitBoard, name: 'Raspberry Pi', color: 'text-pink-400' },
     { icon: Wrench, name: 'Microcontroller', color: 'text-blue-300' },
     { icon: FileCode, name: 'TypeScript', color: 'text-blue-600' },
-    { icon: Layers, name: 'CNN', color: 'text-purple-600' },
-    { icon: Bot, name: 'Scikit-learn', color: 'text-yellow-600' },
+  //{ icon: Layers, name: 'CNN', color: 'text-purple-600' },
+  //{ icon: Bot, name: 'Scikit-learn', color: 'text-yellow-600' },
     { icon: Server, name: 'Django', color: 'text-green-600' },
     { icon: Zap, name: 'JavaScript', color: 'text-yellow-500' },
-    { icon: Camera, name: 'OpenCV', color: 'text-indigo-400' },
+// { icon: Camera, name: 'OpenCV', color: 'text-indigo-400' },
     { icon: Gamepad2, name: 'Arduino', color: 'text-teal-400' },
-    { icon: Brain, name: 'PyTorch', color: 'text-orange-600' },
-    { icon: Layers, name: 'Keras', color: 'text-red-500' },
-    { icon: Code, name: 'NLTK', color: 'text-blue-500' },
+ //{ icon: Brain, name: 'PyTorch', color: 'text-orange-600' },
+  //{ icon: Layers, name: 'Keras', color: 'text-red-500' },
+  //{ icon: Code, name: 'NLTK', color: 'text-blue-500' },
     { icon: Bot, name: 'AI Tools', color: 'text-purple-500'},
     { icon: Server, name: 'AWS', color: 'text-yellow-300' },
   ];
@@ -50,7 +50,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            A passionate developer with expertise in AI/ML, web development, and embedded systems
+            A passionate developer with expertise in Innovating Solutions through Softwares and IoT Embedded Systems
           </p>
         </div>
 
@@ -62,7 +62,7 @@ const AboutSection = () => {
                 <div className="w-48 h-48 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-ocean-400 to-ocean-600 rounded-full animate-pulse"></div>
                   <img
-                    src="/img/Me2.png"
+                    src="/img/Me.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full border-4 border-ocean-400 relative z-10"
                   />
@@ -77,7 +77,7 @@ const AboutSection = () => {
               <div className="text-center">
                 <div className="mb-6">
                   <h3 className="text-3xl font-bold text-white mb-2">Rishabh Kumar Mandal</h3>
-                  <p className="text-ocean-300 text-xl">AI Engineer</p>
+                  <p className="text-ocean-300 text-xl"> CS Engineer </p>
                 </div>
                 
                 <div className="space-y-4 text-white/80 text-lg leading-relaxed max-w-3xl mx-auto">
@@ -85,13 +85,10 @@ const AboutSection = () => {
                     Hi! I'm Rishabh Kumar Mandal, pursuing Bachelor's in Computer Science and Engineering.
                   </p>
                   <p>
-                    Proficient in AI/ML, CNN, OpenCV with expertise in Web Development.
-                    Hands-on experience with 3D Printing, IoT, Embedded systems, ESP-32, RaspPi, and Arduino.
+                    
                   </p>
                   <p>
-                    Love to Research & Innovate with important hands-on experience in International and Government Projects.
-                    Currently an Intern at IAI Lab, DSVV, Haridwar.
-                  </p>
+                    Love to Research & Develop Solutions </p>
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-6 max-w-4xl mx-auto">

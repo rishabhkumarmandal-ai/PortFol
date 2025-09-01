@@ -10,7 +10,7 @@ const EducationSection = () => {
       period: '2022 - 2026',
       status: 'Pursuing',
       gpa: '7.5',
-      description: 'Specializing in Artificial Intelligence, Machine Learning, and Software Development. Active participant in coding competitions and research projects.',
+    //   description: 'Specializing in Artificial Intelligence, Machine Learning, and Software Development. Active participant in coding competitions and research projects.',
       coursework: [
         'Data Structures & Algorithms',
         'Machine Learning',
@@ -19,10 +19,16 @@ const EducationSection = () => {
         'Database Management',
         'Software Engineering'
       ],
+      achievements: [
+        'Maintained GPA of 7.5+',
+        'Executive of IEEE',
+        'Winner of multiple coding competitions',
+        'Published research papers on AI/ML'
+      ],
       logo: '/img/1.png'
     },
-    {
-      id: 2,
+      /*  {
+    id: 2,
       degree: 'Bachelor of Computer Science and Engineering',
       institution: "Tula's Institute",
       location: 'India',
@@ -45,7 +51,7 @@ const EducationSection = () => {
         'Published research papers on AI/ML'
       ],
       logo: '/img/3.png'
-    },
+    }, */
     {
       id: 3,
       degree: 'Higher Secondary Education',

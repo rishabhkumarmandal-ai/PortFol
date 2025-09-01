@@ -6,7 +6,7 @@ const GlimpsesSection = () => {
       id: 1,
       image: '/img/25,000.jpeg',
       title: 'Rise of Ventures Winner',
-      description: 'Winning moment at the Research & Patent Ideas competition with ₹25,000 prize',
+      // description: 'Winning moment at the Research & Patent Ideas competition with ₹25,000 prize',
       event: 'Grafest by Graphic Era ',
       date: '2025'
     },
@@ -14,7 +14,7 @@ const GlimpsesSection = () => {
       id: 2,
       image: '/img/31,000.jpeg',
       title: 'National Level Hackathon Winner',
-      description: 'Awarded with 31,000 for Securing 1st Place at Promptx by Devbhoomi Univeristy',
+      // description: 'Awarded with 31,000 for Securing 1st Place at Promptx by Devbhoomi Univeristy',
       event: 'Promptx by Devbhoomi Univeristy',
       date: '2025'
     },
@@ -30,7 +30,7 @@ const GlimpsesSection = () => {
       id: 4,
       image: '/img/4000.jpeg',
       title: 'Technical Festive Events',
-      description: 'Win More than 5 Awards in a Single Day in Technical and Coding Related Competetions',
+      // description: 'Win More than 5 Awards in a Single Day in Technical and Coding Related Competetions',
       event: 'Utkrisht by Tula\'s Institute',
       date: '2024'
     },
@@ -38,7 +38,7 @@ const GlimpsesSection = () => {
       id: 5,
       image: '/img/conference.jpeg',
       title: 'Organizing Team of IEEE Conference',
-      description: 'Contributed as an organzing team member for the IEEE conference held at Tula\'s Institute',
+      // description: 'Contributed as an organzing team member for the IEEE conference held at Tula\'s Institute',
       event: 'Tula\'s Institute',
       date: '2024'
     },
@@ -46,7 +46,7 @@ const GlimpsesSection = () => {
       id: 6,
       image: '/img/7000.jpg',
       title: 'Youth4Future Winner',
-      description: 'Secured 1st Runner Up at National Level Hackahton and won cash prize of 7,000',
+      // description: 'Secured 1st Runner Up at National Level Hackahton and won cash prize of 7,000',
       event: 'Maharaja Sujalmal Univeristy at New Delhi',
       date: '2024'
     },
@@ -54,7 +54,7 @@ const GlimpsesSection = () => {
       id: 7,
       image: '/img/techno.jpg',
       title: 'Techathon Winner',
-      description: 'Secured 1st Runner up in College Hacakthon competition organized by TULA\'s Institute',
+      // description: 'Secured 1st Runner up in College Hacakthon competition organized by TULA\'s Institute',
       event: 'College Competition',
       date: '2024'
     },
@@ -62,7 +62,7 @@ const GlimpsesSection = () => {
       id: 8,
       image: '/img/utkrisht trophy.jpeg',
       title: 'Hackathon Winner at Utkrisht',
-      description: 'Secured 1st place in Art of Web Competetion and won Trophy',
+      // description: 'Secured 1st place in Art of Web Competetion and won Trophy',
       event: 'Utkrisht by Tula\'s Institute',
       date: '2024'
     },
@@ -70,7 +70,7 @@ const GlimpsesSection = () => {
       id: 9,
       image: '/img/ieee.jpeg',
       title: 'Paper Presentation at IEEE Conference',
-      description: '1st Expereince of Paper Presentation in IEEE Conference and Meeting with Top Researchers and Scholars',
+      // description: '1st Expereince of Paper Presentation in IEEE Conference and Meeting with Top Researchers and Scholars',
       event: 'Graphic Era Bhimtal Univeristy',
       date: '2025'
     }

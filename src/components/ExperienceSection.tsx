@@ -7,7 +7,7 @@ const ExperienceSection = () => {
       title: 'Research Intern',
       company: 'IAI Lab, DSVV, Haridwar',
       location: 'Haridwar, India',
-      period: 'July 2024 - Oct 2024',
+      period: 'July 2024 - Working',
       description: 'Worked as an intern at the Institute of Artificial Intelligence at Dev Sanskriti Vishwavidyalaya, under the supervision of Dr. Neel Mani. Engaged in research for different ongoing projects demonstrating commitment and professionalism.',
       achievements: [
         'Working on Government Projects & International Projects',
@@ -24,24 +24,22 @@ const ExperienceSection = () => {
       company: 'International MUN',
       location: 'Remote',
       period: 'Jan 2023 - April 2023',
-      description: 'Selected for 5-weeks internship with International MUN as Campus Ambassador Intern. Represented IMUN publicly including promoting IMUN offline and on social media channels, PR, Quora, emailers, and promotional material.',
       achievements: [
         'Work on Web Projects and Solving Key Problems',
         'Developed proposals and conducted marketing campaigns',
         'Interacted with IMUN partners and delegates across the world',
-        'Gained experience in business development and day-to-day operations'
+        'Gained experience in business development and day-to-day operations',
       ],
       type: 'work',
       certificate: '/img/IMUN.jpeg'
     },
 
-    {
+    /*{
       id: 3,
       title: 'Full-Stack Developer Intern',
       company: 'AINRION',
       location: 'Remote',
-      period: '25 May 2025 - Ongoing',
-      description: 'Selected for period of 3 months internship for developing and maintaining web applications, collaborating on both front-end and back-end tasks, and contributing to real-world projects. ',
+      period: '25 May 2025 - 25 Aug 2025',
       achievements: [
         'Work on Web Projects and Solving Key Problems',
         'Integrate AI Solutions into Web Applications',
@@ -49,14 +47,13 @@ const ExperienceSection = () => {
       ],
       type: 'work',
       certificate: '/img/Rishab kumar mandal.pdf'
-    },
+    }, */
     {
       id: 4,
       title: 'Freelance Developer',
       company: 'Self-Employed',
       location: 'Remote',
       period: '2023 - Present',
-      description: 'Providing web development and AI-integrated solutions to various clients with focus on modern technologies and innovative approaches.',
       achievements: [
         'Completed 3+ web development projects',
         'Provide AI integrated Projects to Clients',

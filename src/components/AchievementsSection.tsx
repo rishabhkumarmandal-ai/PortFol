@@ -5,7 +5,6 @@ const AchievementsSection = () => {
     {
       id: 1,
       title: "2 times National Level Hackathon Winner ",
-      description: "Won the 1st Place at Devbhoomi University organized by Promptx and Youth4Future Hackathon by Maharaja Sujalmal Univeristy at New Delhi",
       category: "National Hackahon",
       year: "2024-25",
       icon: Trophy,
@@ -14,7 +13,6 @@ const AchievementsSection = () => {
     {
       id: 2,
       title: "5 times Inter-University Hackathon Winner",
-      description: "Won at ITS Univeristy, Delhi, Graphic Era University, Quantum University, Tula's Institute(2 Times)",
       category: "Hackathon",
       year: "2023-25",
       icon: Medal,
@@ -23,7 +21,6 @@ const AchievementsSection = () => {
     {
       id: 3,
       title: "2 Times National Level Ideathon Winner",
-      description: "Achieved 1st Place in Rise of Ventures at Graphic Era and Enterprenuership Ideathon at ITS Univeristy Greater Noida",
       category: "National Ideathon",
       year: "2024-25",
       icon: Star,
@@ -32,7 +29,6 @@ const AchievementsSection = () => {
     {
       id: 4,
       title: "11+ Awards in Tech Events",
-      description: "Recognized and awarded in various technical competitions within the universities other than hackathons",
       category: "Technical Awards",
       year: "2023",
       icon: Award,
@@ -40,8 +36,7 @@ const AchievementsSection = () => {
     },
     {
       id: 5,
-      title: "Global Impact Certificate",
-      description: "Recognized by AD Science Index in World's Scientist Ranking 2025 for Contribution to AI and Computer Science",
+      title: "Global AD Scientist Certificate",
       category: "Certificate",
       year: "2025",
       icon: Pen ,
@@ -50,7 +45,6 @@ const AchievementsSection = () => {
     {
       id: 6,
       title: "Student of the Year Award",
-      description: "Awarded for outstanding all round performance in academics, Sports, creativity and leadership",
       category: "Academics",
       year: "2020-2022",
       icon: Medal,
@@ -60,7 +54,6 @@ const AchievementsSection = () => {
     {
       id: 7,
       title: "State and District level in Arts and Poetry",
-      description: "Awarded for outstanding performance in Dehradun District and Uttarakhand State in Arts ",
       category: "Creative Arts",
       year: "2017-2022",
       icon: Palette,
@@ -70,7 +63,6 @@ const AchievementsSection = () => {
     {
       id: 8,
       title: "District level in Cricket and Kabaddi",
-      description: "Winner in Dehradun District level in Cricket and Kabaddi and the Part of State level Kabaddi Team in U-19 ",
       category: "Sports",
       year: "2017-2022",
       icon: Star,
@@ -120,7 +112,7 @@ const AchievementsSection = () => {
 
                     <p className="text-white/80 leading-relaxed">
                       {achievement.description}
-                    </p>
+                    </p> 
                   </div>
                 </div>
               );

@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <div className="w-64 h-64 lg:w-80 lg:h-80 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-ocean-400 to-ocean-600 rounded-full animate-pulse"></div>
                   <img
-                    src="/img/Me2.png"
+                    src="/img/Me.jpg"
                     alt="Rishabh Kumar Mandal"
                     className="w-full h-full object-cover rounded-full border-4 border-white/20 relative z-10"
                   />
@@ -62,15 +62,15 @@ const HeroSection = () => {
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
                 <a 
-                  href="https://drive.google.com/file/d/17JW-XkLuQEvbjs7hQi-8TUY7mIVofXNV/view?usp=drive_link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="bg-ocean-500 hover:bg-ocean-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
-                    <Download className="mr-2" size={18} />
-                    Download Resume
-                  </Button>
-                </a>
+  href="/resume.pdf" 
+  download="Rishabh_Resume.pdf"
+>
+  <Button className="bg-ocean-500 hover:bg-ocean-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
+    <Download className="mr-2" size={18} />
+    Download Resume
+  </Button>
+</a>
+
                 <a 
                   href="https://www.linkedin.com/in/rishabh-kumar-mandal-2470b0272"
                   target="_blank"
@@ -103,7 +103,7 @@ const HeroSection = () => {
                   <Linkedin size={20} />
                 </a>
                 <a 
-                  href="https://www.instagram.com/techno.rishu?igsh=MTUzbjF6aW1mbzN6cQ==" 
+                  href="https://www.instagram.com/smart.coders.lab/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
