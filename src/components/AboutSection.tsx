@@ -4,9 +4,10 @@ import { Code, Palette, Globe, Cpu, Database, Smartphone, Layers, Brain, Circuit
 const AboutSection = () => {
   const skills = [
     { name: 'Web Development', level: 80 },
+    { name: 'Mobile Apps', level: 60 },
     { name: 'IoT Embedded System', level: 50 },
-  //{ name: 'AI/ML Integrations', level: 85 },
-    { name: 'Research', level: 90 },
+    { name: 'AI/ML & Analytics', level: 55 },
+    { name: 'Research and Development', level: 90 },
     { name: 'Literature and Writing', level: 95 },
     { name: '3D Printing', level: 40 },
     { name: 'Designing', level: 80 },
@@ -30,7 +31,7 @@ const AboutSection = () => {
     { icon: Wrench, name: 'Microcontroller', color: 'text-blue-300' },
     { icon: FileCode, name: 'TypeScript', color: 'text-blue-600' },
   //{ icon: Layers, name: 'CNN', color: 'text-purple-600' },
-  //{ icon: Bot, name: 'Scikit-learn', color: 'text-yellow-600' },
+    { icon: Bot, name: 'GenAI', color: 'text-yellow-600' },
     { icon: Server, name: 'Django', color: 'text-green-600' },
     { icon: Zap, name: 'JavaScript', color: 'text-yellow-500' },
 // { icon: Camera, name: 'OpenCV', color: 'text-indigo-400' },
