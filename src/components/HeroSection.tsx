@@ -62,8 +62,8 @@ const HeroSection = () => {
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
                 <a 
-  href="/resume.pdf" 
-  download="Rishabh_Resume.pdf"
+  href="/img/resume.pdf" 
+  download="RishabhCV.pdf"
 >
   <Button className="bg-ocean-500 hover:bg-ocean-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
     <Download className="mr-2" size={18} />
