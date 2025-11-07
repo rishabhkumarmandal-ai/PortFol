@@ -50,7 +50,7 @@ const ProjectsSection = () => {
       category: 'apps',
       image: '/img/stree.png',
       technologies: ['Android', 'iOS', 'React', 'supply chain', 'E-commerece'],
-      github: 'https://github.com/rishabhkumarmandal-ai/calculator',
+      github: 'https://github.com/rishabhkumarmandal-ai/streesaathi',
       demo: 'https://calc-fe.vercel.app/',
       date: '2025'
     },
