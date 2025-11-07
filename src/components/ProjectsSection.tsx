@@ -10,7 +10,7 @@ const ProjectsSection = () => {
     { id: 'websites', label: 'Websites' },
     { id: 'apps', label: 'Mobile Apps' },
     { id: 'iot', label: 'IoT & Embedded' },
-    { id: 'ai', label: 'AI Powered Websites' },
+    { id: 'ai', label: 'AI, Analytics & Backend' },
   ];
 
   const projects = [
@@ -60,8 +60,8 @@ const ProjectsSection = () => {
       category: 'iot',
       image: '/img/speed.png',
       technologies: ['engineering', 'Sustainaiabilty', 'Mobile App', 'Hyperloop'],
-      github: 'https://github.com/rishabhkumarmandal-ai/Thermo-Cryo-Therapy-Device',
-      demo: '/img/hyperloop.jpg',
+      github: 'https://github.com/rishabhkumarmandal-ai/Speed-measure-dashboard',
+      demo: 'https://youtu.be/pUo7h_fB7Ts',
       date: '2025'
     },
     {
@@ -90,8 +90,8 @@ const ProjectsSection = () => {
       category: 'websites',
       image: '/img/upsc.png',
       technologies: ['Next.js', 'MERN stack', 'Automation'],
-      github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Multi-Chambered-Filtration-System',
-      demo: '/img/architect.png',
+      github: '   ',
+      demo: 'https://youtu.be/UePQi256244',
       date: '2023'
     },
   ];
