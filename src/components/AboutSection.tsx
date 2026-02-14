@@ -247,8 +247,8 @@ const AboutSection = () => {
 
   return (
     <section id="about" ref={sectionRef} className="py-20 relative bg-black">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+      <div className="container mx-auto px-6 flex flex-col items-center">
+        <div className="w-full text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-cyan-300 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(34,211,238,0.45)]">
             About Me
           </h2>
@@ -257,7 +257,7 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="w-full max-w-5xl">
           <div className="relative overflow-hidden rounded-3xl border border-cyan-400/35 bg-black/85 shadow-[0_0_40px_rgba(0,245,255,0.22)]">
             <img
               ref={imageRef}
