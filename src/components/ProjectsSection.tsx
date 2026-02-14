@@ -141,12 +141,12 @@ const ProjectsSection = () => {
           ))}
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Projects Horizontal Scroll */}
+        <div className="-mx-2 flex snap-x snap-mandatory gap-8 overflow-x-auto px-2 pb-4">
           {filteredProjects.map((project, index) => (
             <div
               key={project.id}
-              className="group bg-white/5 backdrop-blur-md rounded-3xl overflow-hidden border border-white/10 hover:border-ocean-400/50 transition-all duration-500 transform hover:scale-105"
+              className="group w-[320px] basis-[320px] shrink-0 snap-start overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md transition-all duration-500 hover:scale-[1.02] hover:border-ocean-400/50 md:w-[340px] md:basis-[340px] lg:w-[360px] lg:basis-[360px]"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
@@ -162,35 +162,22 @@ const ProjectsSection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="relative group">
-                    <img
-                      src={project.image}
-                      alt="Project"
-                      onError={(e) => {
-                        e.currentTarget.onerror = null;
-                        e.currentTarget.src = '/placeholder.svg';
-                      }}
-                      className="w-full h-auto rounded-lg"
-                    />
-                    <div className="absolute top-4 right-4 flex gap-2">
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors group-hover:bg-black"
-                      >
-                        <Github size={18} />
-                      </a>
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors group-hover:bg-green-800"
-                      >
-                        <ExternalLink size={18} />
-                      </a>
-                    </div>
-                  </div>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors hover:bg-black"
+                  >
+                    <Github size={18} />
+                  </a>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white transition-colors hover:bg-green-800"
+                  >
+                    <ExternalLink size={18} />
+                  </a>
                 </div>
               </div>
 
