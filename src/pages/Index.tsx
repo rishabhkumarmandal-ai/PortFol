@@ -70,7 +70,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-white overflow-x-hidden">
+    <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <AnimatedBackground />
       <Navigation />
       

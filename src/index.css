@@ -45,34 +45,34 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 222 45% 4%;
     --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
+    --card: 222 40% 6%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 222 40% 6%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 210 100% 60%;
+    --primary-foreground: 220 50% 10%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 222 36% 12%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 222 32% 11%;
+    --muted-foreground: 215 22% 72%;
 
-    --accent: 217.2 32.6% 17.5%;
+    --accent: 220 45% 14%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
+    --border: 220 32% 18%;
+    --input: 220 32% 18%;
+    --ring: 210 95% 63%;
+    --sidebar-background: 222 40% 7%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
@@ -103,12 +103,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #14b8a6, #3b82f6);
+  background: linear-gradient(180deg, #1e90ff, #005fe0);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #0d9488, #2563eb);
+  background: linear-gradient(180deg, #4ca9ff, #0077ff);
 }
 
 /* Smooth animations */
@@ -148,41 +148,41 @@ body {
 .custom-cursor {
   width: 20px;
   height: 20px;
-  border: 2px solid #14b8a6;
+  border: 2px solid #1e90ff;
   border-radius: 50%;
   position: fixed;
   pointer-events: none;
   z-index: 9999;
   transition: all 0.1s ease;
-  background: rgba(20, 184, 166, 0.1);
-  box-shadow: 0 0 20px rgba(20, 184, 166, 0.6), 0 0 40px rgba(20, 184, 166, 0.4);
+  background: rgba(30, 144, 255, 0.1);
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.6), 0 0 40px rgba(30, 144, 255, 0.4);
   animation: glow 2s infinite alternate;
 }
 
 .custom-cursor.hover {
   transform: scale(1.5);
-  background: rgba(20, 184, 166, 0.2);
-  box-shadow: 0 0 30px rgba(20, 184, 166, 0.8), 0 0 60px rgba(20, 184, 166, 0.6);
+  background: rgba(30, 144, 255, 0.2);
+  box-shadow: 0 0 30px rgba(30, 144, 255, 0.8), 0 0 60px rgba(30, 144, 255, 0.6);
 }
 
 .custom-cursor-dot {
   width: 4px;
   height: 4px;
-  background: #14b8a6;
+  background: #1e90ff;
   border-radius: 50%;
   position: fixed;
   pointer-events: none;
   z-index: 9999;
   transition: all 0.1s ease;
-  box-shadow: 0 0 10px rgba(20, 184, 166, 0.8);
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
 }
 
 @keyframes glow {
   0% {
-    box-shadow: 0 0 20px rgba(20, 184, 166, 0.6), 0 0 40px rgba(20, 184, 166, 0.4);
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.6), 0 0 40px rgba(30, 144, 255, 0.4);
   }
   100% {
-    box-shadow: 0 0 30px rgba(20, 184, 166, 0.8), 0 0 60px rgba(20, 184, 166, 0.6);
+    box-shadow: 0 0 30px rgba(30, 144, 255, 0.8), 0 0 60px rgba(30, 144, 255, 0.6);
   }
 }
 

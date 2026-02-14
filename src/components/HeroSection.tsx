@@ -35,11 +35,11 @@ const HeroSection = () => {
                 <div className="w-64 h-64 lg:w-80 lg:h-80 relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-ocean-400 to-ocean-600 rounded-full animate-pulse"></div>
                   <img
-                    src="/img/Me.jpg"
+                    src="/img/mee.jpeg"
                     alt="Rishabh Kumar Mandal"
                     className="w-full h-full object-cover rounded-full border-4 border-white/20 relative z-10"
                   />
-                  <div className="absolute -inset-4 bg-gradient-to-r from-ocean-400 via-blue-500 to-purple-600 rounded-full opacity-20 animate-float"></div>
+                  <div className="absolute -inset-4 bg-gradient-to-r from-ocean-400 via-blue-500 to-blue-700 rounded-full opacity-20 animate-float"></div>
                 </div>
               </div>
             </div>

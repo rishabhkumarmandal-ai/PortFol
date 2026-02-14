@@ -94,6 +94,17 @@ const ProjectsSection = () => {
       demo: 'https://youtu.be/UePQi256244',
       date: '2023'
     },
+
+    {
+      id: 10,
+      title: 'Chronic Diseases Detection System through Prakriti Analysis',
+      category: 'ai',
+      image: '/img/ayur.png',
+      technologies: ['Computer Vision', 'LLM', 'NLP', 'Tensorflow'],
+      github: '   ',
+      demo: 'https://drive.google.com/file/d/1ri0_KM-3w6q4HORxyLxv2co78N8U__Y6/view?usp=drive_link',
+      date: '2025'
+    },
   ];
 
   const filteredProjects =
@@ -106,7 +117,7 @@ const ProjectsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-ocean-400 bg-clip-text text-transparent">
-            Projects
+            Personal Projects
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             A showcase of my work across different technologies and domains
@@ -120,11 +131,10 @@ const ProjectsSection = () => {
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
               variant={activeCategory === category.id ? 'default' : 'outline'}
-              className={`px-6 py-3 rounded-full transition-all duration-300 ${
-                activeCategory === category.id
+              className={`px-6 py-3 rounded-full transition-all duration-300 ${activeCategory === category.id
                   ? 'bg-ocean-500 text-white'
                   : 'border-ocean-400 text-ocean-400 hover:bg-ocean-500 hover:text-white'
-              }`}
+                }`}
             >
               {category.label}
             </Button>
@@ -140,16 +150,28 @@ const ProjectsSection = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
-                {/* ✅ Changed line below — added rounded-[30%] */}
+                {/* âœ… Changed line below â€” added rounded-[30%] */}
                 <img
                   src={project.image}
                   alt={project.title}
+                  onError={(e) => {
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = '/placeholder.svg';
+                  }}
                   className="w-full h-70 object-cover transition-transform duration-500 group-hover:scale-110 rounded-[10%]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="relative group">
-                    <img src={project.image} alt="Project" className="w-full h-auto rounded-lg" />
+                    <img
+                      src={project.image}
+                      alt="Project"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = '/placeholder.svg';
+                      }}
+                      className="w-full h-auto rounded-lg"
+                    />
                     <div className="absolute top-4 right-4 flex gap-2">
                       <a
                         href={project.github}

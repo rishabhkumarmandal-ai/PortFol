@@ -1,6 +1,8 @@
-import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin, Award, Sparkles } from 'lucide-react';
 
 const EducationSection = () => {
+  const cardSizeClass = 'w-[330px] md:w-[420px] h-[520px]';
+
   const education = [
     {
       id: 1,
@@ -10,48 +12,17 @@ const EducationSection = () => {
       period: '2022 - 2026',
       status: 'Pursuing',
       gpa: '7.5',
-    //   description: 'Specializing in Artificial Intelligence, Machine Learning, and Software Development. Active participant in coding competitions and research projects.',
       coursework: [
         'Data Structures & Algorithms',
         'Machine Learning',
         'Computer Vision',
         'Web Development',
         'Database Management',
-        'Software Engineering'
+        'Software Engineering',
       ],
-      achievements: [
-        'Maintained GPA of 7.5+',
-        'Executive of IEEE',
-        'Winner of multiple coding competitions',
-        'Published research papers on AI/ML'
-      ],
-      logo: '/img/1.png'
+      logo: '/img/1.png',
+      track: 'Core Engineering',
     },
-      /*  {
-    id: 2,
-      degree: 'Bachelor of Computer Science and Engineering',
-      institution: "Tula's Institute",
-      location: 'India',
-      period: '2022 - 2026',
-      status: 'Pursuing',
-      gpa: '7.5',
-      description: 'Specializing in Artificial Intelligence, Machine Learning, and Software Development. Active participant in coding competitions and research projects.',
-      coursework: [
-        'Data Structures & Algorithms',
-        'Machine Learning',
-        'Computer Vision',
-        'Web Development',
-        'Database Management',
-        'Software Engineering'
-      ],
-      achievements: [
-        'Maintained GPA of 7.5+',
-        'Executive of IEEE',
-        'Winner of multiple coding competitions',
-        'Published research papers on AI/ML'
-      ],
-      logo: '/img/3.png'
-    }, */
     {
       id: 3,
       degree: 'Higher Secondary Education',
@@ -60,139 +31,127 @@ const EducationSection = () => {
       period: '2020 - 2022',
       status: 'Completed',
       percentage: '81%',
-      description: 'Completed with focus on Mathematics, Physics, and Computer Science.',
-      coursework: [
-        'Mathematics',
-        'Physics',
-        'Chemistry',
-        'Computer Science',
-        'English'
-      ],
-      achievements: [
-        'Scored 81% overall',
-        'Wins Student of the Year',
-        'Tagged Top Performer in Every Field & Named as all Rounder',
-        'District in Kabaddi and Cricket',
-        'Win GK Quiz, Poetry and Art Competition in State Level'
-      ],
-      logo: '/img/2.png'
-    }
+      coursework: ['Mathematics', 'Physics', 'Chemistry', 'Computer Science', 'English'],
+      logo: '/img/2.png',
+      track: 'Science Foundation',
+    },
   ];
 
   return (
     <section id="education" className="py-20 relative">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-ocean-400 bg-clip-text text-transparent">
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-8 left-1/4 w-40 h-40 bg-blue-500/10 blur-3xl rounded-full" />
+        <div className="absolute bottom-10 right-1/4 w-56 h-56 bg-ocean-500/10 blur-3xl rounded-full" />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="text-center mb-14">
+          <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-blue-200 to-ocean-400 bg-clip-text text-transparent">
             Education
           </h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            My academic journey and educational background
+          <p className="text-xl text-blue-100/80 max-w-3xl mx-auto">
+            Academic milestones in a neon timeline format
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="space-y-8">
-            {education.map((edu, index) => (
-              <div
-                key={edu.id}
-                className="bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/10 hover:border-ocean-400/50 transition-all duration-500 transform hover:scale-105"
-                style={{ animationDelay: `${index * 0.2}s` }}
-              >
-                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-6">
-                  <div className="flex-1">
-                    <div className="flex items-start mb-4">
-                      <div className="flex items-center mr-4">
-                        <img 
-                          src={edu.logo} 
-                          alt={`${edu.institution} logo`}
-                          className="w-16 h-16 object-contain rounded-lg bg-white/10 p-2"
-                        />
-                        <GraduationCap className="text-ocean-400 ml-3" size={24} />
-                      </div>
-                      <div>
-                        <h3 className="text-2xl font-bold text-white mb-2">
-                          {edu.degree}
-                        </h3>
-                        <p className="text-ocean-300 text-lg font-medium mb-2">
-                          {edu.institution}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="lg:ml-6">
-                    <div className={`px-4 py-2 rounded-full text-sm font-medium mb-4 ${
-                      edu.status === 'Pursuing' 
-                        ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30' 
-                        : 'bg-green-500/20 text-green-300 border border-green-500/30'
-                    }`}>
-                      {edu.status}
-                    </div>
-                  </div>
-                </div>
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-6 flex items-center justify-center gap-2 text-blue-200/70 text-sm">
+            <Sparkles size={14} />
+            Drag or scroll horizontally
+          </div>
 
-                <div className="grid md:grid-cols-2 gap-6 mb-6">
-                  <div className="space-y-3">
-                    <div className="flex items-center text-white/60 text-sm">
-                      <Calendar size={16} className="mr-2" />
-                      {edu.period}
-                    </div>
-                    <div className="flex items-center text-white/60 text-sm">
-                      <MapPin size={16} className="mr-2" />
-                      {edu.location}
-                    </div>
-                    {edu.gpa && (
-                      <div className="flex items-center text-ocean-300 font-medium">
-                        <Award size={16} className="mr-2" />
-                        GPA: {edu.gpa}
+          <div className="overflow-x-auto pb-6">
+            <div className="relative min-w-max px-2">
+              <div className="absolute left-0 right-0 top-12 h-px bg-gradient-to-r from-transparent via-blue-400/80 to-transparent" />
+
+              <div className="flex gap-7 snap-x snap-mandatory">
+                {education.map((edu, index) => (
+                  <article
+                    key={edu.id}
+                    className={`relative ${cardSizeClass} shrink-0 snap-start pt-16 group`}
+                    style={{ animationDelay: `${index * 0.15}s` }}
+                  >
+                    <div className="absolute top-10 left-8 w-4 h-4 rounded-full bg-blue-400 shadow-[0_0_22px_rgba(30,144,255,0.95)] border border-blue-200/80" />
+
+                    <div className="relative h-full overflow-hidden rounded-3xl border border-blue-300/20 bg-gradient-to-b from-black/70 to-[#030914]/90 p-6 shadow-[0_0_40px_rgba(0,119,255,0.14)] transition-all duration-500 group-hover:border-blue-300/55 group-hover:shadow-[0_0_50px_rgba(30,144,255,0.24)]">
+                      <div className="absolute top-0 right-0 w-28 h-28 bg-blue-500/20 blur-2xl rounded-full" />
+                      <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-300/80 via-ocean-400/70 to-transparent" />
+                      <div className="relative z-10 h-full flex flex-col">
+                        <div className="mb-4 flex items-start justify-between gap-3">
+                          <div className="flex items-start gap-4">
+                            <img
+                              src={edu.logo}
+                              alt={`${edu.institution} logo`}
+                              className="w-16 h-16 object-contain rounded-xl bg-blue-500/10 border border-blue-300/20 p-2"
+                            />
+                            <div>
+                              <p className="text-xs uppercase tracking-[0.2em] text-blue-200/70 mb-1">{edu.track}</p>
+                              <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{edu.degree}</h3>
+                              <p className="text-ocean-300 text-sm md:text-base mt-1">{edu.institution}</p>
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className="px-2 py-1 rounded-full text-[10px] tracking-wider border border-blue-300/35 text-blue-100/80 bg-blue-500/10">
+                              ID-{edu.id}
+                            </span>
+                            <GraduationCap className="text-blue-300/90 shrink-0" size={22} />
+                          </div>
+                        </div>
+
+                        <div className="flex flex-wrap gap-3 mb-4 text-sm">
+                          <span className="px-3 py-1 rounded-full bg-blue-500/15 border border-blue-400/35 text-blue-200">
+                            {edu.status}
+                          </span>
+                          <span className="px-3 py-1 rounded-full bg-white/5 border border-white/15 text-white/80">
+                            {edu.period}
+                          </span>
+                        </div>
+
+                        <div className="grid grid-cols-1 gap-5 mb-4">
+                          <div className="space-y-3 text-white/75 text-sm">
+                            <div className="flex items-center">
+                              <Calendar size={16} className="mr-2 text-blue-300" />
+                              {edu.period}
+                            </div>
+                            <div className="flex items-center">
+                              <MapPin size={16} className="mr-2 text-blue-300" />
+                              {edu.location}
+                            </div>
+                            {edu.gpa && (
+                              <div className="flex items-center text-ocean-300 font-medium">
+                                <Award size={16} className="mr-2" />
+                                GPA: {edu.gpa}
+                              </div>
+                            )}
+                            {edu.percentage && (
+                              <div className="flex items-center text-ocean-300 font-medium">
+                                <Award size={16} className="mr-2" />
+                                Score: {edu.percentage}
+                              </div>
+                            )}
+                          </div>
+
+                        </div>
+
+                        <div className="mt-auto">
+                          <h4 className="text-blue-100 font-medium mb-3">Key Coursework</h4>
+                          <div className="flex flex-wrap gap-2 max-h-28 overflow-y-auto pr-1">
+                            {edu.coursework.map((course, idx) => (
+                              <span
+                                key={idx}
+                                className="px-3 py-1 rounded-full text-xs bg-blue-500/10 border border-blue-400/25 text-blue-100/90"
+                              >
+                                {course}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
                       </div>
-                    )}
-                    {edu.percentage && (
-                      <div className="flex items-center text-ocean-300 font-medium">
-                        <Award size={16} className="mr-2" />
-                        Score: {edu.percentage}
-                      </div>
-                    )}
-                  </div>
-
-                  <div>
-                    <h4 className="text-white font-medium mb-3">Key Coursework</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {edu.coursework.map((course, idx) => (
-                        <span
-                          key={idx}
-                          className="bg-white/10 text-white/80 px-3 py-1 rounded-full text-sm"
-                        >
-                          {course}
-                        </span>
-                      ))}
                     </div>
-                  </div>
-                </div>
-
-                <p className="text-white/80 mb-6 leading-relaxed">
-                  {edu.description}
-                </p>
-
-                {edu.achievements && (
-                  <div>
-                    <h4 className="text-ocean-300 font-medium mb-3 flex items-center">
-                      <Award size={18} className="mr-2" />
-                      Achievements
-                    </h4>
-                    <ul className="space-y-2">
-                      {edu.achievements.map((achievement, idx) => (
-                        <li key={idx} className="text-white/80 flex items-start">
-                          <span className="w-2 h-2 bg-ocean-400 rounded-full mt-2 mr-3 flex-shrink-0" />
-                          {achievement}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
+                  </article>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

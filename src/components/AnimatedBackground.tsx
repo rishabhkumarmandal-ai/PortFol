@@ -39,9 +39,9 @@ const AnimatedBackground = () => {
 
       // Create gradient background
       const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-      gradient.addColorStop(0, 'rgba(20, 184, 166, 0.1)');
-      gradient.addColorStop(0.5, 'rgba(59, 130, 246, 0.1)');
-      gradient.addColorStop(1, 'rgba(147, 51, 234, 0.1)');
+      gradient.addColorStop(0, 'rgba(0, 0, 0, 0.92)');
+      gradient.addColorStop(0.5, 'rgba(0, 119, 255, 0.12)');
+      gradient.addColorStop(1, 'rgba(0, 0, 0, 0.98)');
 
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -58,7 +58,7 @@ const AnimatedBackground = () => {
         // Draw particle
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(20, 184, 166, ${particle.opacity})`;
+        ctx.fillStyle = `rgba(76, 169, 255, ${particle.opacity})`;
         ctx.fill();
 
         // Connect nearby particles
@@ -71,7 +71,7 @@ const AnimatedBackground = () => {
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
             ctx.lineTo(otherParticle.x, otherParticle.y);
-            ctx.strokeStyle = `rgba(20, 184, 166, ${0.1 * (1 - distance / 100)})`;
+            ctx.strokeStyle = `rgba(30, 144, 255, ${0.14 * (1 - distance / 100)})`;
             ctx.stroke();
           }
         });
@@ -95,7 +95,7 @@ const AnimatedBackground = () => {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #020202 0%, #070b16 45%, #02122f 100%)' }}
     />
   );
 };
