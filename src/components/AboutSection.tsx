@@ -92,7 +92,7 @@ const AboutSection = () => {
         scrollTrigger: {
           trigger: section,
           start: 'top top',
-          end: '+=320%',
+          end: '+=240%',
           pin: true,
           scrub: true,
           anticipatePin: 1,

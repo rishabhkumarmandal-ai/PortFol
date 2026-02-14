@@ -1,4 +1,5 @@
-import { Camera, Users, Award, Pen, Palette, MapPin, BookOpen, Github, Linkedin, Instagram, Mail } from 'lucide-react';
+import { useMemo, useState } from 'react';
+import { Camera, Users, Award, Pen, Palette, MapPin, BookOpen } from 'lucide-react';
 
 const BeyondCodeSection = () => {
   const activities = [
@@ -6,131 +7,143 @@ const BeyondCodeSection = () => {
       id: 1,
       title: 'Photo/Video Editing',
       icon: Camera,
-      color: 'from-purple-400 to-pink-500',
-      skills: ['Adobe Photoshop', 'Premiere Pro', 'Creative Direction']
+      image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Adobe Photoshop', 'Premiere Pro', 'Creative Direction'],
+      summary: 'Visual storytelling through edits, pacing, and cinematic framing.',
     },
     {
       id: 2,
       title: 'Teaching',
       icon: Users,
-      color: 'from-blue-400 to-cyan-500',
-      skills: ['Programming Concepts', 'Mentoring', 'Technical Communication']
+      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Programming Concepts', 'Mentoring', 'Communication'],
+      summary: 'Breaking complex ideas into clear and practical learning paths.',
     },
     {
       id: 3,
       title: 'Cricket',
       icon: Award,
-      color: 'from-green-400 to-teal-500',
-      skills: ['Team Sports', 'Strategy', 'Leadership']
+      image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Team Sports', 'Strategy', 'Leadership'],
+      summary: 'High-pressure decision making with disciplined teamwork.',
     },
     {
       id: 4,
       title: 'Kabaddi',
       icon: Award,
-      color: 'from-red-400 to-orange-500',
-      skills: ['Traditional Sports', 'Fitness', 'Team Coordination']
+      image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Fitness', 'Speed', 'Coordination'],
+      summary: 'Reflex, timing, and tactical aggression in fast game scenarios.',
     },
     {
       id: 5,
       title: 'Poetry',
       icon: Pen,
-      color: 'from-indigo-400 to-purple-500',
-      skills: ['Creative Writing', 'Expression', 'Storytelling']
+      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Writing', 'Expression', 'Storytelling'],
+      summary: 'Turning feelings and thoughts into structured creative form.',
     },
     {
       id: 6,
       title: 'Art & Sketch',
       icon: Palette,
-      color: 'from-pink-400 to-red-500',
-      skills: ['Digital Art', 'Sketching', 'Creative Design']
+      image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Sketching', 'Digital Art', 'Design Thinking'],
+      summary: 'Observation-first creativity translated into visual ideas.',
     },
     {
       id: 7,
       title: 'Travelling',
       icon: MapPin,
-      color: 'from-yellow-400 to-orange-500',
-      skills: ['Cultural Exploration', 'Adventure', 'Photography']
+      image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Adventure', 'Culture', 'Photography'],
+      summary: 'Learning from people, places, and unfamiliar environments.',
     },
     {
       id: 8,
       title: 'Reading Sci-fi',
       icon: BookOpen,
-      color: 'from-cyan-400 to-blue-500',
-      skills: ['Science Fiction', 'Future Tech', 'Imagination']
-    }
+      image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1400&q=80',
+      tags: ['Science Fiction', 'Future Tech', 'Imagination'],
+      summary: 'Future-world thinking that influences product vision and direction.',
+    },
   ];
 
-  return (
-    <section className="py-20 relative overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-20 h-20 bg-purple-500/20 rounded-full animate-float" />
-        <div className="absolute top-40 right-20 w-16 h-16 bg-blue-500/20 rounded-full animate-float" style={{ animationDelay: '2s' }} />
-        <div className="absolute bottom-40 left-20 w-24 h-24 bg-green-500/20 rounded-full animate-float" style={{ animationDelay: '4s' }} />
-        <div className="absolute bottom-20 right-10 w-18 h-18 bg-orange-500/20 rounded-full animate-float" style={{ animationDelay: '6s' }} />
-      </div>
+  const [activeId, setActiveId] = useState(activities[0].id);
+  const active = useMemo(() => activities.find((item) => item.id === activeId) ?? activities[0], [activities, activeId]);
+  const ActiveIcon = active.icon;
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-ocean-400 bg-clip-text text-transparent">
+  return (
+    <section className="relative overflow-hidden py-20">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(14,165,233,0.18),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(249,115,22,0.1),transparent_35%)]" />
+
+      <div className="container relative z-10 mx-auto px-6">
+        <div className="mb-14 text-center">
+          <h2 className="mb-4 bg-gradient-to-r from-white to-ocean-400 bg-clip-text text-4xl font-bold text-transparent md:text-6xl">
             Beyond the Code
           </h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            Exploring creativity, sports, and life experiences that shape my perspective beyond programming
+          <p className="mx-auto max-w-3xl text-xl text-white/80">
+            Personal pursuits that sharpen creativity, resilience, and perspective.
           </p>
-          
-          
         </div>
 
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {activities.map((activity, index) => {
-              const Icon = activity.icon;
-              return (
-                <div
-                  key={activity.id}
-                  className="group bg-white/5 backdrop-blur-md rounded-3xl p-6 border border-white/10 hover:border-ocean-400/50 transition-all duration-500 transform hover:scale-105 hover:rotate-1 animate-fade-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <div className="text-center">
-                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br ${activity.color} mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 animate-pulse`}>
-                      <Icon size={28} className="text-white" />
+        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+          <div className="rounded-3xl border border-white/10 bg-slate-950/45 p-4 backdrop-blur-xl md:p-5">
+            <div className="max-h-[620px] space-y-3 overflow-y-auto pr-1">
+              {activities.map((activity) => {
+                const Icon = activity.icon;
+                const isActive = activity.id === active.id;
+                return (
+                  <button
+                    key={activity.id}
+                    type="button"
+                    onClick={() => setActiveId(activity.id)}
+                    className={`w-full rounded-2xl border p-3 text-left transition-all duration-300 ${
+                      isActive
+                        ? 'border-sky-300/50 bg-sky-500/15 shadow-[0_0_30px_rgba(56,189,248,0.22)]'
+                        : 'border-white/10 bg-white/5 hover:border-white/30'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-white/20 bg-slate-900/80">
+                        <Icon size={20} className="text-white" />
+                      </div>
+                      <div>
+                        <p className="text-base font-semibold text-white">{activity.title}</p>
+                        <p className="text-xs text-white/65">{activity.tags[0]}</p>
+                      </div>
                     </div>
-                    
-                    <h3 className="text-lg font-bold text-white mb-3 group-hover:text-ocean-300 transition-colors">
-                      {activity.title}
-                    </h3>
-                    
-                    <p className="text-white/80 text-sm leading-relaxed mb-4">
-                      {activity.description}
-                    </p>
-
-                    <div className="space-y-1">
-                      {activity.skills.map((skill, skillIndex) => (
-                        <span 
-                          key={skillIndex}
-                          className="inline-block px-2 py-1 text-xs font-medium bg-white/10 text-white/70 rounded-lg mr-1 mb-1 hover:bg-ocean-500/20 hover:text-ocean-300 transition-colors duration-300"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
+                  </button>
+                );
+              })}
+            </div>
           </div>
-        </div>
 
-        {/* Creative floating elements */}
-        <div className="absolute top-1/4 left-1/4 animate-bounce" style={{ animationDelay: '1s' }}>
-          <Camera className="text-purple-400/30" size={32} />
-        </div>
-        <div className="absolute top-1/3 right-1/3 animate-bounce" style={{ animationDelay: '3s' }}>
-          <Palette className="text-pink-400/30" size={28} />
-        </div>
-        <div className="absolute bottom-1/3 left-1/3 animate-bounce" style={{ animationDelay: '5s' }}>
-          <MapPin className="text-yellow-400/30" size={30} />
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl md:p-6">
+            <div className="relative mb-5 overflow-hidden rounded-2xl border border-white/15">
+              <img src={active.image} alt={active.title} className="h-64 w-full object-cover md:h-80" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
+                <div className="inline-flex items-center rounded-full border border-white/30 bg-black/30 px-3 py-1 text-xs font-semibold tracking-[0.16em] text-sky-100">
+                  PASSION SPOTLIGHT
+                </div>
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/25 bg-black/30">
+                  <ActiveIcon size={18} className="text-white" />
+                </div>
+              </div>
+            </div>
+
+            <h3 className="mb-2 text-3xl font-bold text-white">{active.title}</h3>
+            <p className="mb-5 text-white/80">{active.summary}</p>
+
+            <div className="flex flex-wrap gap-2">
+              {active.tags.map((tag) => (
+                <span key={tag} className="rounded-full border border-white/20 bg-slate-900/60 px-3 py-1 text-xs font-medium text-sky-100">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

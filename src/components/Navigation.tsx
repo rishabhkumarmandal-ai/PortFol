@@ -37,7 +37,10 @@ const Navigation = () => {
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: 'smooth' });
+    if (!element) return;
+
+    const y = element.getBoundingClientRect().top + window.scrollY - 110;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
     setIsOpen(false);
   };
 
