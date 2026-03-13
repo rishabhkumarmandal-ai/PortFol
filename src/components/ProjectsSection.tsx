@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       id: 2,
       title: 'AI Dermatology Expert System',
       category: 'ai',
-      image: '/img/skin.png',
+      image: '/img/sskin.png',
       technologies: ['AI/ML', 'CNN', 'Rule-Based', 'Knowledge Base', 'LLM'],
       github: 'https://github.com/rishabhkumarmandal-ai/AI-Driven-Skin-Disease-Diagnosis-and-Holistic-Treatment-System',
       demo: 'https://www.youtube.com/embed/H8-Q8Q2ZasQ?si=XkSzHt80hyQM9OBW',
