@@ -57,7 +57,7 @@ const HeroSection = () => {
               </div>
 
               <p className="text-base md:text-lg lg:text-xl text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in">
-               "Success isn’t always about greatness. It’s about consistency. Consistent hard work gains success. Greatness will come." — Dwayne Johnson
+               "One Day My Name will be in the list of Top Engineers and Entreprenuers in the World"
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8">
@@ -103,7 +103,7 @@ const HeroSection = () => {
                   <Linkedin size={20} />
                 </a>
                 <a 
-                  href="https://www.instagram.com/smart.coders.lab/" 
+                  href="https://www.instagram.com/rishabh.techhub/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
@@ -111,7 +111,7 @@ const HeroSection = () => {
                   <Instagram size={20} />
                 </a>
                 <a 
-                  href="https://www.facebook.com/profile.php?id=100081894836003" 
+                  href="https://www.facebook.com/share/1J68TDHmgh/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
@@ -121,7 +121,7 @@ const HeroSection = () => {
                   </svg>
                 </a>
                 <a 
-                  href="mailto:rishabh@aicentre.org" 
+                  href="mailto:techhubrishabh@gmail.com" 
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
                 >
                   <Mail size={20} />

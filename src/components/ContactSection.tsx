@@ -121,17 +121,13 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-white/60 text-sm">Email</p>
-                    <a href="mailto:rishabhmandalkumar81@gmail.com" className="text-white hover:underline">rishabhmandalkumar81@gmail.com</a>
+                    <a href="mailto:techhubrishabh@gmail.com" className="text-white hover:underline">techhubrishabh@gmail.com</a>
                   </div>
                 </div>
                 
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-ocean-500/20 rounded-full flex items-center justify-center mr-4">
                     <Phone className="text-ocean-400" size={20} />
-                  </div>
-                  <div>
-                    <p className="text-white/60 text-sm">Phone</p>
-                    <a href="tel:+917983551280" className="text-white hover:underline"> +91 7983551280 </a>
                   </div>
                 </div>
                 
@@ -166,7 +162,7 @@ const ContactSection = () => {
                     <Linkedin size={18} />
                   </a>
                   <a 
-                    href="https://www.instagram.com/techno.rishu?igsh=MTUzbjF6aW1mbzN6cQ=="
+                    href="https://www.instagram.com/rishabh.techhub/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110"
@@ -174,7 +170,7 @@ const ContactSection = () => {
                     <Instagram size={18} />
                   </a>
                   <a 
-                    href="https://www.facebook.com/profile.php?id=100081894836003"
+                    href="https://www.facebook.com/share/1J68TDHmgh/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-ocean-500 transition-all duration-300 transform hover:scale-110"
